@@ -1,0 +1,11 @@
+{
+  "name": "restaurant-billing",
+  "version": "1.0.0",
+  "description": "Simple restaurant billing system: order, items, bill",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "test": "node --no-warnings --test tests/*.test.js"
+  },
+  "engines": { "node": ">=22.13" }
+}
